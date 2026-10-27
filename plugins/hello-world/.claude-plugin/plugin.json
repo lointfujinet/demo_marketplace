@@ -1,0 +1,8 @@
+{
+  "name": "hello-world",
+  "version": "0.2.0",
+  "description": "Plugin mẫu đơn giản để thử quy trình tạo và cài plugin",
+  "author": { "name": "ASTEC" },
+  "license": "MIT",
+  "keywords": ["example", "hello-world", "starter"]
+}

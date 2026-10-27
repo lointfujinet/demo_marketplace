@@ -1,0 +1,13 @@
+{
+  "name": "astec-marketplace",
+  "owner": { "name": "ASTEC" },
+  "metadata": { "description": "Plugin nội bộ ASTEC cho Dev và Research" },
+  "plugins": [
+    {
+      "name": "hello-world",
+      "source": "./plugins/hello-world",
+      "description": "Plugin mẫu gồm skill, agent và hook để thử quy trình cài plugin",
+      "version": "0.2.0"
+    }
+  ]
+}

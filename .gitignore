@@ -1,0 +1,16 @@
+# Claude Code local settings and plugin state (per-user, not shared)
+.claude/settings.local.json
+.claude/*.local.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
