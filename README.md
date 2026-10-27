@@ -7,7 +7,7 @@ của từng plugin trong thư mục `plugins/`.
 ## Cấu trúc
 
 ```
-astec-marketplace/
+demo_marketplace/
 ├── .claude-plugin/
 │   └── marketplace.json     # Danh sách plugin
 ├── plugins/
@@ -23,10 +23,10 @@ astec-marketplace/
 
 ## Cài đặt
 
-Thêm marketplace (thay `<owner>` bằng tài khoản hoặc tổ chức GitHub chứa repo):
+Thêm marketplace từ repo GitHub `lointfujinet/demo_marketplace`:
 
 ```
-/plugin marketplace add <owner>/astec-marketplace
+/plugin marketplace add lointfujinet/demo_marketplace
 ```
 
 Sau đó cài plugin:
@@ -34,6 +34,10 @@ Sau đó cài plugin:
 ```
 /plugin install hello-world@astec-marketplace
 ```
+
+Lưu ý hai tên khác nhau: `demo_marketplace` là tên **repo** (dùng khi thêm marketplace),
+còn `astec-marketplace` là tên **marketplace** khai báo trong `marketplace.json`
+(dùng sau dấu `@` khi cài plugin).
 
 Nếu repo là private, tài khoản git trên máy của bạn phải có quyền truy cập repo.
 

@@ -18,7 +18,7 @@ touch your files or run anything beyond a greeting.
 From a marketplace that lists this plugin:
 
 ```
-/plugin install hello-world --marketplace <owner>/<repo>
+/plugin install hello-world --marketplace lointfujinet/demo_marketplace
 ```
 
 To try it locally without a marketplace:
