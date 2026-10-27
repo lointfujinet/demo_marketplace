@@ -1,5 +1,5 @@
 {
-  "name": "astec-marketplace",
+  "name": "demo-marketplace",
   "owner": { "name": "ASTEC" },
   "metadata": { "description": "Plugin nội bộ ASTEC cho Dev và Research" },
   "plugins": [

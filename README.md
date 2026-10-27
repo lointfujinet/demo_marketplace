@@ -1,4 +1,4 @@
-# astec-marketplace
+# demo-marketplace
 
 Marketplace nội bộ của ASTEC cho Claude Code, dành cho các team Dev và Research.
 Repo này chứa danh mục plugin (`.claude-plugin/marketplace.json`) và mã nguồn
@@ -32,12 +32,12 @@ Thêm marketplace từ repo GitHub `lointfujinet/demo_marketplace`:
 Sau đó cài plugin:
 
 ```
-/plugin install hello-world@astec-marketplace
+/plugin install hello-world@demo-marketplace
 ```
 
-Lưu ý hai tên khác nhau: `demo_marketplace` là tên **repo** (dùng khi thêm marketplace),
-còn `astec-marketplace` là tên **marketplace** khai báo trong `marketplace.json`
-(dùng sau dấu `@` khi cài plugin).
+Lưu ý hai tên khác nhau: `demo_marketplace` (dấu gạch dưới) là tên **repo** (dùng khi
+thêm marketplace), còn `demo-marketplace` (dấu gạch ngang) là tên **marketplace** khai
+báo trong `marketplace.json` (dùng sau dấu `@` khi cài plugin).
 
 Nếu repo là private, tài khoản git trên máy của bạn phải có quyền truy cập repo.
 
